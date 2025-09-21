@@ -64,3 +64,16 @@ Instead of just crunching numbers, I wanted to answer the kinds of questions a s
 
 For any sales-driven organization, data visibility = performance improvement.
 This analysis shows how a simple dataset can be transformed into a decision-making tool — helping managers see not just what happened, but also where to focus next.
+
+## 💡 Author
+**Prathmesh Gaikwad**  
+[LinkedIn Profile](https://www.linkedin.com/in/prathmesh-gaikwad-bbb142322/)
+
+---
+
+## 📄 License
+This project is for educational and portfolio purposes.
+
+---
+
+#excel #Sql #dataanalytics #B2B Sales Pipeline  #SQLProject #businessintelligence #dataAnalysis
