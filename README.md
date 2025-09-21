@@ -1,79 +1,72 @@
-# 🚀 B2B Sales Pipeline Insights (SQL + Excel) 
+# 🚀 CRM Sales Opportunities Analysis (SQL + Excel)
 
-When managing sales teams, numbers tell powerful stories.
-In this project, I worked with a fictitious company that sells computer hardware to large businesses.
-The dataset captured deals, sales teams, agents, industries, and products — and I decided to dig in using SQL and a bit of Excel cleanup.
+Behind every sales opportunity, there’s a story waiting in the data.
+In this project, I explored a CRM dataset capturing sales opportunities for a fictitious company selling computer hardware to large businesses.
+The data included deals, sales teams, agents, industries, and products — and I analyzed it using SQL and a bit of Excel cleanup.
 
 ### 🔍 What I Set Out to Do :
 
-Instead of just crunching numbers, I wanted to answer the kinds of questions a sales manager would actually ask, like:
+Rather than just building queries, I wanted to answer the kinds of real CRM questions managers care about, such as:
 
-1.Are my teams hitting the mark?
+Are our regional teams performing equally well?
 
-2.Which agents are falling behind the pack?
+Which agents are lagging and might need coaching?
 
-3.Do our products convert consistently, or are a few carrying the weight?
+What do quarter-over-quarter trends reveal about growth or risks?
 
-4.How do revenues look when we stack quarters against each other?
+Which products have the strongest opportunity-to-win conversion rates?
 
-5.I ended up with 15 business questions — some recommended at the start, and some that emerged naturally as I analyzed the data.
+I ended up designing 15 business questions — a mix of recommended ones and new questions that surfaced during my exploration.
 
 ### 📊 A Few Highlights from the Analysis :
 
-- Team Showdown: Central office led the way with $4.07M in annual revenue, beating West ($3.51M) and East ($2.84M).
+Regional Performance: Central office closed the most revenue (~$4.07M), ahead of West (~$3.51M) and East (~$2.84M).
 
-- Who’s Struggling? Agents like Wilburn Farren and Rosalina Dieter closed noticeably fewer deals than their peers.
+Agent Performance Gaps: A handful of agents consistently closed fewer deals than the average.
 
-- Quarterly Rollercoaster: Deal volumes climbed sharply through 2017 Q2 and Q3, but then fell off a cliff in Q4.
+Quarterly Trends: Opportunity volumes peaked mid-2017, then dropped sharply in Q4 — signaling volatility.
 
-- Product Spotlight: GTX Basic and MG Special were the crowd favorites — but MG Special also had the highest conversion rate (65%).
+Winning Products: GTX Basic and MG Special were the most popular, with MG Special also converting at ~65%.
 
-- Industry Leaders: Software and Technology dominated account revenues, while Services lagged far behind.
+Industries That Matter: Software and Technology sectors dominated account revenue, while Services lagged behind.
 
-- Manager Insight: Summer Sewald managed the largest team (6 agents).
+Manager Insight: Summer Sewald oversaw the largest sales team (6 agents).
 
 ### 🧑‍💻 How I Approached It :
 
-- Cleaned raw CSV data in Excel (fixing dates, removing noise, formatting).
+Cleaned and formatted the CRM data in Excel.
 
-- Wrote SQL queries to dig into the data — joins, aggregations, ranking, and a few window functions (like rolling 3-month averages).
+Wrote SQL queries to explore the dataset — joins, aggregations, ranking, and window functions for rolling averages and trend analysis.
 
-- Each query came with an output table, making the results easy to interpret.
+Matched each query with an output table to validate insights.
 
-- Translated those numbers into insights that a sales manager could act on.
+Framed the findings in a way that sales managers could directly act on.
 
 ### 💡 Key Takeaways :
 
-- Sales success is unevenly distributed: a few products and sectors drive the bulk of wins.
+CRM opportunities are uneven: certain teams, agents, and products carry most of the success.
 
-- Teams and agents aren’t equally strong — clear room for coaching and training.
+Conversion analysis shows product mix matters as much as total opportunities.
 
-- Performance tracking should go beyond totals; conversion rates and trend analysis reveal much more.
+Opportunity tracking should focus on trends and win rates, not just deal counts.
 
-- SQL can do a lot more than answer homework-style questions — it can tell business stories.
+SQL proved to be a powerful tool for turning CRM data into business intelligence.
 
 ### 🛠️ Tools & Skills in Action :
 
-- SQL: joins, group by, aggregates, ranking, window functions, conversion metrics.
+SQL: joins, group by, ranking, aggregates, window functions (QoQ trends, rolling averages).
 
-- Excel: cleaning data, formatting, quick checks.
+Excel: cleaning raw data, fixing dates, formatting, quick validation.
 
-- Business Thinking: framing technical results into performance insights.
+Business Lens: translating technical outputs into CRM sales strategy insights.
 
 ### 📌 Why This Matters :
 
-For any sales-driven organization, data visibility = performance improvement.
-This analysis shows how a simple dataset can be transformed into a decision-making tool — helping managers see not just what happened, but also where to focus next.
+CRM data is only as valuable as the insights it provides.
+This project shows how even a simple CRM dataset can help managers track opportunities, benchmark performance, and identify gaps that need attention.
 
-## 💡 Author
-**Prathmesh Gaikwad**  
-[LinkedIn Profile](https://www.linkedin.com/in/prathmesh-gaikwad-bbb142322/)
+### 📂 Data Source :
 
----
+Source: data.world
 
-## 📄 License
-This project is for educational and portfolio purposes.
-
----
-
-#excel #Sql #dataanalytics #B2B Sales Pipeline  #SQLProject #businessintelligence #dataAnalysis
+Website: Mavean Analytics
